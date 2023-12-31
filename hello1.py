@@ -34,15 +34,7 @@
     </style>
 </head>
 <body>
-    <div id="animatedElement">Hover me</div>
-
-    <script>
-        // JavaScriptで動きを追加
-        const animatedElement = document.getElementById('animatedElement');
-
-        animatedElement.addEventListener('click', () => {
-            alert('クリックされました！');
-        });
-    </script>
+    <p>あ</p>
+    
 </body>
 </html>
