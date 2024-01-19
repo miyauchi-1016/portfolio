@@ -1,23 +1,9 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #3498db;
-    color: #fff;
+.heading {
     text-align: center;
-    padding: 20px;
 }
-
-section {
-    margin: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
+.table-heading {
     text-align: center;
-    padding: 10px;
+}
+.top-wrapper {
+    margin: 10px 20px;
 }
