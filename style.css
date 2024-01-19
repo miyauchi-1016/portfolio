@@ -1,3 +1,7 @@
+body {
+    background-image: url("背景.avif");
+    background-size: cover;
+}
 .heading {
     text-align: center;
 }
@@ -5,5 +9,8 @@
     text-align: center;
 }
 .top-wrapper {
-    margin: 10px 20px;
+    margin: 300px 0px;
+}
+.content-wrapper {
+    margin: 100px 0px;
 }
