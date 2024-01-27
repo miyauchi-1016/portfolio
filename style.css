@@ -9,8 +9,22 @@ body {
     text-align: center;
 }
 .top-wrapper {
-    margin: 300px 0px;
+    margin: 200px 0px;
 }
 .content-wrapper {
     margin: 100px 0px;
+}
+.top-content-wrapper {
+    margin-bottom: 100px;
+}
+.profile-wrapper {
+    margin: 0px 40px;
+}
+.anchor{
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+.bi {
+    margin-right: 10px;
 }
