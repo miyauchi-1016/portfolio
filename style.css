@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
     background-image: url("背景.avif");
     background-size: cover;
 }
@@ -29,27 +28,3 @@ body {
 .bi {
     margin-right: 10px;
 }
-=======
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #3498db;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-section {
-    margin: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
->>>>>>> origin/main
