@@ -18,8 +18,11 @@ body {
     margin-bottom: 100px;
 }
 .profile-wrapper {
-    margin: 0px 40px;
+    margin: 20px 40px;
     display: inline-block;
+}
+.profile-content {
+    margin: 15px;
 }
 .anchor{
     display: block;
@@ -32,4 +35,10 @@ body {
 .card th {
     width: 20%;
     text-align: center;
+}
+.card-text {
+    font-weight: bold;
+}
+.skill-top {
+    margin-top: 20px;
 }
