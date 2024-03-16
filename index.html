@@ -19,26 +19,28 @@
             <h1 class="heading">Hibiki Miyauchi's Portfolio</h1>
         </div>
         
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-3  sticky-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">Hibiki Miyauchi's Portfolio</a>
-            <div class="collapse navbar-collapse justify-content-end">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#profile">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skill">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#works">Works</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark mt-3 mb-3  sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Hibiki Miyauchi's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profile">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skill">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#works">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -48,7 +50,7 @@
                 <div class="col-md-3 text-center profile-content">
                     <span class="h3">宮内 響己</span><br>(ミヤウチ ヒビキ)
                 </div>
-                <div class="col-lg-7  profile-content">
+                <div class="col-md-7  profile-content">
                     物事について考えたり分析をすることや、効率化をすることに興味があります。<br>
                     始めの言語として、AI,機械学習に使われることの多いPythonの学習から着手しております。<br>
                     ゆくゆくはその他の言語も学習を進め、あらゆる分野の開発を行えるよう知識を養いたいです。
@@ -57,9 +59,9 @@
         </div>
 
         <h2 class="heading anchor" id="skill"><i class="bi bi-brush-fill"></i>Work experience</h2>
-        <h3 class="heading skill-top" id="skill-experience">使用言語</h3>
+        <h3 class="heading" id="skill-experience">使用言語</h3>
         <div class="row justify-content-center">
-            <table class="table table-borderless col-5">
+            <table class="table table-borderless col-md-5">
                 <thead>
                     <tr class="table-heading">
                         <th scope="col">技術</th>
@@ -87,16 +89,16 @@
         <div class="content-wrapper" id="works">
             <h2 class="heading anchor"><i class="bi bi-file-check-fill"></i>Works</h2>
             <div class="container container-m">
-                <div class="card-deck">
+                <div class="card-deck row justify-content-center">
                     <div class="card">
                         <img class="card-img-top" src=".../100px200/" alt="Card image cap">
                         <div class="card-body">
                         <h5 class="card-title"><a href="https://miyauchi-1016.github.io/portfolio/">ポートフォリオ</a></h5>
-                        <p class="card-text">➾ 本サイトです。自身の紹介と作成したツールを掲載しています。</p>
+                        <p class="card-text">➾ 本サイトです。<br>自身の紹介と作成したツールを掲載しています。</p>
                         <table class="table">
                             <tr>
                                 <th>使用言語</th>
-                                <td>HTML / CSS(フレームワーク：Bootstrap) / JavaScript</td>
+                                <td>HTML <br> CSS (フレームワーク：Bootstrap) <br> JavaScript</td>
                             </tr>
                             <tr>
                                 <th><i class="bi bi-github"></i>github</th>
@@ -109,15 +111,15 @@
                         <img class="card-img-top" src=".../100px200/" alt="Card image cap">
                         <div class="card-body">
                         <h5 class="card-title">スクレイピングツール</h5>
-                        <p class="card-text">➾ webページのスクレイピングツールです。pythonの学習の一環として作成してみました。</p>
+                        <p class="card-text">➾ webページのスクレイピングツールです。<br>Python学習の一環として作成してみました。</p>
                         <table class="table">
                             <tr>
                                 <th style="width: 20%">使用言語</th>
-                                <td>Python(フレームワーク：Flask) / HTML / CSS(フレームワーク：Bootstrap) / JavaScript</td>
+                                <td>Python (フレームワーク：Flask) <br> HTML <br> CSS (フレームワーク：Bootstrap) <br> JavaScript</td>
                             </tr>
                             <tr>
                                 <th><i class="bi bi-github"></i>github</th>
-                                <td></td>
+                                <td><a href="https://github.com/miyauchi-1016/scraping_tool">https://github.com/miyauchi-1016/scraping_tool</a></td>
                             </tr>
                         </table>
                         </div>
